@@ -21,7 +21,7 @@ public class Head {
 		
 		s.dupchar("abcdafgbcacbca");
 		
-		n.IsPrime(19);
+		n.IsPrime(499);
 		
 	}
 

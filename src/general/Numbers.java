@@ -14,9 +14,9 @@ public class Numbers {
 				}
 			}
 			if (count>0) {
-				System.out.println(num +" is a prime number");
-			}else {
 				System.out.println(num +" is NOT a prime number");
+			}else {
+				System.out.println(num +" is a prime number");
 			}
 		}
 
