@@ -24,11 +24,11 @@ public class Strings {
 		if (arr.length == se.size()) {
 			System.out.println("No Duplicate chars");
 		}
-		Iterator it = se.iterator();
+		Iterator<Character> it = se.iterator();
 		
 		while (it.hasNext()) {
 			int i=0;
-			char dup = (char) it.next();
+			char dup = it.next();
 			for (char ch: arr)
 			if (dup == ch) {
 				i++;	
@@ -52,6 +52,7 @@ public class Strings {
 		for (int i =rev.length-1; i >=0; i--) {
 			System.out.print(rev[i]+ " ");
 		}
+		System.out.println("");
 	}
 	
 	public void fibo(int n) {
@@ -85,7 +86,6 @@ public class Strings {
 		char arr[] = str.toCharArray();
 	      for (int i=0, a=1, b=1; i<arr.length-1; i++){
 	          
-	      //arr[i] = str.charAt(i); 
 	      if (arr[i] == 'a'){
 	          arr[i] = Character.forDigit(a++,10);
 	      }

@@ -10,18 +10,22 @@ public class Head {
 		
 		Strings s = new Strings();
 		Numbers n = new Numbers();
-		/*s.reverse("Girish Mrudula");
-		s.revWords("Let's see the example to reverse each word in a string.");*/
-		
-		//s.fibo(20);
-		//s.isPrime(27);
+		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@");
+		s.reverse("Girish Mrudula");
+		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@");
+		s.revWords("Let's see the example to reverse each word in a string.");
+		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@");
+		s.fibo(20);
+		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@");
+		s.isPrime(28);
+		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@");
 		s.charreplace("abcdafgbcacbca");
 		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@");
 		//s.getbiggestnum("457230");
 		
 		s.dupchar("abcdafgbcacbca");
 		
-		n.IsPrime(499);
+		//n.IsPrime(499);
 		
 	}
 
